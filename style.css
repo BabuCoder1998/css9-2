@@ -453,6 +453,7 @@ main {
     display: flex;
     justify-content: center;
     padding-bottom: 96px;
+    overflow: hidden;
 }
 
 .main-third-container {
@@ -478,3 +479,222 @@ main {
     gap: 12px;
     width: 100%;
 }
+
+.main-third-container-bottom {
+    display: flex;
+    gap: 64px;
+    width: 100%;
+}
+
+.main-third-container-bottom-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 592px;
+    width: 100%;
+    min-width: 590px;
+    justify-content: center;
+}
+
+.main-third-container-bottom-left-content {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px 0 16px 24px;
+    flex-direction: column;
+    gap: 20px;
+    border-left: 4px solid #F5F5F5;
+}
+
+.main-third-container-bottom-left-content-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.learn-more-with-icon {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.main-third-container-bottom-left-content:hover {
+    border-left: 4px solid #9E77ED;
+}
+
+.main-forth-container-box {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    padding: 96px 0;
+    background: #F2EDFF;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+
+.main-forth-container {
+    display: flex;
+    gap: 64px;
+    max-width: 1280px;
+    padding: 0 32px;
+    width: 100%;
+}
+
+.main-forth-left-content-box {
+    max-width: 470px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-forth-left-header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main-forth-rigt-container-box {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+
+.plan-card-container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    }
+
+.plan-card-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 340px;
+    padding: 32px 32px 0 32px;
+    align-items: center;    
+}
+.card-header-text-photo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.flash-icon {
+    width: 48px;
+    display: flex;
+}
+
+.pans-price-para {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px; 
+}
+
+.plan-card-main-container {
+    max-width: 340px;
+    width: 100%;
+    padding: 32px 32px 40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.plan-card-main-content {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.check-icon {
+    width: 24px;
+}
+
+.plan-card-footer-container {
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.card-plan-submit-button {
+    width: 100%;
+    padding: 12px 18px;
+    background: #7F56D9;
+    border-radius: 8px;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.main-fifth-container-box {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    padding: 96px 0;
+}
+
+.main-fifth-container {
+    display: flex;
+    padding: 0 32px;
+    max-width: 1280px;
+    width: 100%;
+    background: #53389E;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.main-fifth-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    padding: 64px;
+    max-width: 736px;
+    min-width: 769px;
+    width: 100%;
+}
+
+.main-fifth-header {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.stars-icon {
+    width: 116px;
+    height: 20px;
+}
+
+.main-fift-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.three-dot-icon {
+    width: 62px;
+    height: 10px;
+}
+
+
