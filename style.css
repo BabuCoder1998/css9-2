@@ -410,6 +410,7 @@ main {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-sec-container-box {
@@ -834,7 +835,45 @@ footer {
     width: 100%;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .last-links-box {
     display: flex;
     gap: 16px;
 }
+
+/* starting responsives */
+
+@media screen and (max-width: 769px) {
+    .left-header-nav-lists, .right-header-nav{
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+        
+    }
+
+    .main-third-container-bottom-left {
+        display: flex;
+        justify-content: unset;
+        max-width: 320px;
+        width: 100%;
+        min-width: 320px;
+    }
+
+    .main-forth-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-fifth-container {
+        flex-direction: column;
+    }
+
+    .Renee-pic {
+        object-fit: cover;
+    }
+} 
