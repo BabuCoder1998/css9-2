@@ -758,6 +758,12 @@ footer {
     align-items: flex-start;
 }
 
+.right-footer-container-list-box {
+    gap: 32px;
+    display: flex;
+    max-width: 320px;
+}
+
 .footer-lists {
     display: flex;
     flex-direction: column;
@@ -770,6 +776,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    max-width: 144px;
+    width: 100%;
+    min-width: 100px;
 }
 
 .send-us-email-container {
@@ -895,5 +904,10 @@ footer {
         flex-direction: column-reverse;
     }
 
+    .right-footer-container-list-box {
+        flex-direction: row;
+    }
 
 } 
+
+/* tablet responsive ends here  */
