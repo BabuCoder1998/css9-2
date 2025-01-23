@@ -930,13 +930,7 @@ footer {
         padding: 0 16px;
     }
 
-    .header-hero-container-box {
-        all: unset;
-    }
 
-    .header-hero-container {
-        all: unset;
-    }
 
     h1 {
         color: #FFF;
@@ -977,4 +971,43 @@ footer {
         line-height: 28px;
         text-align: left;
     }
+
+    .background-img {
+        background-image: url(images/bank-cards.svg);
+        background-image: url(images/background-img-cards.svg);
+    }
+
+    .main-first-container-box {
+        padding: 64px 0;
+    }
+
+    .main-sec-container-box {
+        padding: 64px 0;
+    }
+
+    .main-sec-container {
+        flex-direction: column;
+    }
+
+    .main-sec-right-boxes {
+        gap: 4px;
+    }
+
+    .main-sec-container-right-box {
+        gap: 40px;
+    }
+
+    .main-sec-container-left-box {
+        height: auto;
+    }
+
+    .main-third-container-bottom {
+        flex-direction: column;
+    }
+
+    .dashboard-background-img {
+        width: 338.487px;
+        height: 225.658px;
+    }
+
 }
