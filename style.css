@@ -1063,7 +1063,7 @@ footer {
     }
 
     .footer-bottom-container {
-        padding: 0 16px;
+        padding: 0 32px;
         flex-direction: column;
         gap: 24px;
     }
