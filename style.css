@@ -862,6 +862,7 @@ footer {
 /* starting responsives */
 
 @media screen and (max-width: 769px) {
+
     .left-header-nav-lists, .right-header-nav{
         display: none;
     }
@@ -913,3 +914,67 @@ footer {
 } 
 
 /* tablet responsive ends here  */
+
+@media screen and (max-width: 385px) {
+
+    .header-nav-bar {
+        padding: 0 12px 0 16px;
+    }
+
+    .header-hero-top-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header-hero-container-content-box {
+        padding: 0 16px;
+    }
+
+    .header-hero-container-box {
+        all: unset;
+    }
+
+    .header-hero-container {
+        all: unset;
+    }
+
+    h1 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+        text-align: left;
+        align-items: unset;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .buttons-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pink-sec-basic-para {
+        color: #E9D7FE;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .big-light-pink {
+        color: #E9D7FE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+}
