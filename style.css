@@ -844,6 +844,10 @@ footer {
     gap: 16px;
 }
 
+.Renne-pic-for-tablet {
+    display: none;
+}
+
 /* starting responsives */
 
 @media screen and (max-width: 769px) {
@@ -869,11 +873,27 @@ footer {
         flex-direction: column;
     }
 
+    .main-fifth-container-box {
+        padding: 0 32px;
+    } 
+
     .main-fifth-container {
         flex-direction: column;
+        padding: 0;
     }
 
-    .Renee-pic {
-        object-fit: cover;
+    .header-hero-container {
+        padding: 0;
     }
+
+    .footer-top-container {
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    .right-footer-container-box {
+        flex-direction: column-reverse;
+    }
+
+
 } 
